@@ -1,0 +1,7 @@
+C:\Users\18015\myProjects\mathcompariosns\mathcomparisons\bin\Debug\mathcomparisons.exe.config
+C:\Users\18015\myProjects\mathcompariosns\mathcomparisons\bin\Debug\mathcomparisons.exe
+C:\Users\18015\myProjects\mathcompariosns\mathcomparisons\bin\Debug\mathcomparisons.pdb
+C:\Users\18015\myProjects\mathcompariosns\mathcomparisons\obj\Debug\mathcomparisons.csprojAssemblyReference.cache
+C:\Users\18015\myProjects\mathcompariosns\mathcomparisons\obj\Debug\mathcomparisons.csproj.CoreCompileInputs.cache
+C:\Users\18015\myProjects\mathcompariosns\mathcomparisons\obj\Debug\mathcomparisons.exe
+C:\Users\18015\myProjects\mathcompariosns\mathcomparisons\obj\Debug\mathcomparisons.pdb
