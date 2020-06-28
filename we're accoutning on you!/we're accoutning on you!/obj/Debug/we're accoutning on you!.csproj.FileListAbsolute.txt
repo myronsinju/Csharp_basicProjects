@@ -1,0 +1,6 @@
+C:\Users\18015\myProjects\we're accoutning on you!\we're accoutning on you!\bin\Debug\we're accoutning on you!.exe.config
+C:\Users\18015\myProjects\we're accoutning on you!\we're accoutning on you!\bin\Debug\we're accoutning on you!.exe
+C:\Users\18015\myProjects\we're accoutning on you!\we're accoutning on you!\bin\Debug\we're accoutning on you!.pdb
+C:\Users\18015\myProjects\we're accoutning on you!\we're accoutning on you!\obj\Debug\we're accoutning on you!.csproj.CoreCompileInputs.cache
+C:\Users\18015\myProjects\we're accoutning on you!\we're accoutning on you!\obj\Debug\we're accoutning on you!.exe
+C:\Users\18015\myProjects\we're accoutning on you!\we're accoutning on you!\obj\Debug\we're accoutning on you!.pdb
