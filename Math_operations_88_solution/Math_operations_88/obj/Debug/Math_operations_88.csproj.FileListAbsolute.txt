@@ -1,0 +1,7 @@
+C:\Users\18015\myProjects\Csharp_basicProjects\Math_operations_88_solution\Math_operations_88\bin\Debug\Math_operations_88.exe.config
+C:\Users\18015\myProjects\Csharp_basicProjects\Math_operations_88_solution\Math_operations_88\bin\Debug\Math_operations_88.exe
+C:\Users\18015\myProjects\Csharp_basicProjects\Math_operations_88_solution\Math_operations_88\bin\Debug\Math_operations_88.pdb
+C:\Users\18015\myProjects\Csharp_basicProjects\Math_operations_88_solution\Math_operations_88\obj\Debug\Math_operations_88.csprojAssemblyReference.cache
+C:\Users\18015\myProjects\Csharp_basicProjects\Math_operations_88_solution\Math_operations_88\obj\Debug\Math_operations_88.csproj.CoreCompileInputs.cache
+C:\Users\18015\myProjects\Csharp_basicProjects\Math_operations_88_solution\Math_operations_88\obj\Debug\Math_operations_88.exe
+C:\Users\18015\myProjects\Csharp_basicProjects\Math_operations_88_solution\Math_operations_88\obj\Debug\Math_operations_88.pdb
