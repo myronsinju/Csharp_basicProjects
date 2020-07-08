@@ -1,0 +1,7 @@
+C:\Users\18015\source\repos\MATH an compariSON Operators assignment\MATH an compariSON Operators assignment\bin\Debug\MATH an compariSON Operators assignment.exe.config
+C:\Users\18015\source\repos\MATH an compariSON Operators assignment\MATH an compariSON Operators assignment\bin\Debug\MATH an compariSON Operators assignment.exe
+C:\Users\18015\source\repos\MATH an compariSON Operators assignment\MATH an compariSON Operators assignment\bin\Debug\MATH an compariSON Operators assignment.pdb
+C:\Users\18015\source\repos\MATH an compariSON Operators assignment\MATH an compariSON Operators assignment\obj\Debug\MATH an compariSON Operators assignment.csprojAssemblyReference.cache
+C:\Users\18015\source\repos\MATH an compariSON Operators assignment\MATH an compariSON Operators assignment\obj\Debug\MATH an compariSON Operators assignment.csproj.CoreCompileInputs.cache
+C:\Users\18015\source\repos\MATH an compariSON Operators assignment\MATH an compariSON Operators assignment\obj\Debug\MATH an compariSON Operators assignment.exe
+C:\Users\18015\source\repos\MATH an compariSON Operators assignment\MATH an compariSON Operators assignment\obj\Debug\MATH an compariSON Operators assignment.pdb
