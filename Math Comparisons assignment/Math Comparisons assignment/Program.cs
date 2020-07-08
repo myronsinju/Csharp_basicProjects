@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MATH_an_compariSON_Operators_assignment
+namespace Math_Comparisons_assignment
 {
     class Program
     {
@@ -29,28 +29,7 @@ namespace MATH_an_compariSON_Operators_assignment
             bool trueOrFalse = 163000 >= 82080;
             Console.WriteLine(trueOrFalse.ToString());
             Console.ReadLine();
-
-           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
+
     }
 }
