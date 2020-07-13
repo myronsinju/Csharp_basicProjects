@@ -23,24 +23,25 @@ namespace Math_operations_88
             Console.WriteLine(addResults);
 
             Console.WriteLine("Please input a number to divide by 12.5");
-            double  A = 12.5;
+            double A = 12.5;
             int doubleDivide = Convert.ToInt32(Console.ReadLine());
-            int divideResult = (int)A;
+            double divideResult = doubleDivide / A;
             Console.WriteLine(divideResult);
 
-
-
             Console.WriteLine("Please enter a number to check if it is greater than 50");
-            bool greaterthan = num1 > num2
-                num1 = Any; num 2 = 50;
+            int greaterThan = Convert.ToInt32(Console.ReadLine());
+            bool boolResult = greaterThan > 50;
+            Console.WriteLine(boolResult);
 
 
 
 
-            Console.WriteLine("please enter a number to divide by 7");
-            int quotient = Convert.ToInt32(Console.ReadLine());
-            int quotientResults = quotient / 7;
-            Console.WriteLine(quotientResults);
+
+
+            Console.WriteLine("please enter a number to divide by 7 and we will show you the remainder");
+            int remainder = Convert.ToInt32(Console.ReadLine());
+            int remainderResults = remainder % 7;
+            Console.WriteLine(remainderResults);
 
 
 
@@ -63,3 +64,24 @@ namespace Math_operations_88
 //4. Takes an input from the user, checks if it is greater than 50, then prints the true/false result to the console.
 
 //5. Takes an input from the user, divides it by 7, then prints the remainder to the console (tip: think % operator).
+
+
+//There are some issues here.
+
+//#3
+//This is just returning 12 every time.It also isn't returning a double type.
+
+//#4
+//You got the right idea to use a > comparison.
+//You need to get user input and compare it to 50.
+
+//#5
+//This should use the % operator to return the remainder in a division operation.
+
+//See what you can do to fix these.
+
+//I recommend reviewing the two math and comparison videos in the previous slides.I think that would clear a lot up.
+
+//Let us know if you get stuck or need some help.
+
+//-Holden
