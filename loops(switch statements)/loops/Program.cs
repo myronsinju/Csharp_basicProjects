@@ -45,7 +45,19 @@ namespace loops
                 }
             }
             while (!isGuessed);
-          
+
+            int counter = 0;
+
+            while(counter < 4)
+            {
+                counter++;
+
+                if (counter == 3)
+                    break;
+
+                Console.WriteLine(counter);
+            }
+
             
             Console.Read();
         }   
