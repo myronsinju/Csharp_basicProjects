@@ -21,10 +21,12 @@ namespace Math_Comparisons_assignment
             int hoursWorked2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("how much is persons' 2 hourly rate?");
             int hourlyRate2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("what is the annual salary of persons 1?");
-            int Salary1 = hoursWorked1 * hourlyRate1 * 52; Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("what is the annual salary of persons 2?");
-            int Salary2 = hoursWorked2 * hourlyRate1 * 52; Convert.ToInt32(Console.ReadLine()); 
+            
+            int Salary1 = hoursWorked1 * hourlyRate1 * 52;
+            
+            Console.WriteLine("Persons' 1 Salary is " + Salary1);
+            int Salary2 = hoursWorked2 * hourlyRate1 * 52;
+            Console.WriteLine("Persons' 2 Salary is " + Salary2);
             Console.WriteLine("does person 1 make more than person 2?");
             bool trueOrFalse = Salary1 >= Salary2;
             Console.WriteLine(trueOrFalse);

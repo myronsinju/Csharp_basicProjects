@@ -14,6 +14,12 @@ namespace branching_assignment
 
             Console.WriteLine("please enter your package's weight");
             int packWeight = Convert.ToInt32(Console.ReadLine());
+            if (packWeight > 50)
+            {
+                Console.WriteLine("This package is too heavy to be shipped by Package Express");
+                Console.ReadLine();
+                Environment.Exit(0);
+            }
 
             Console.WriteLine("now please enter your packages height");
             int packHeight = Convert.ToInt32(Console.ReadLine());
@@ -26,30 +32,22 @@ namespace branching_assignment
 
             
 
-            if (packWeight > 50)
-            {
-                Console.WriteLine("This package is too heavy to be shipped by Package Express");
-            }
             
-            if (packWidth > 50)
+            
+            if (packWidth + packHeight + packLength > 50)
             {
-                Console.WriteLine("Package is too wide to be shipped by Package Express");
+                Console.WriteLine("Package is too big to be shipped by Package Express");
+                Console.ReadLine();
+                Environment.Exit(0);
             }
-            if (packHeight > 50)
-            {
-                Console.WriteLine("Package too Big to be shipped via Package Express");
-            }
-            if (packLength > 50)
-            {
-                Console.WriteLine("Package is too long to be shipped via Package Express");
-            }
-            int total = packHeight * packLength * packWidth;
-            int otherTotal = packWeight;
-            int combine = total * otherTotal;
-            Console.WriteLine(combine);
            
-            int quotient = combine / 100;
-            Console.WriteLine("your estimated total for shipping is");
+            int total = (packHeight * packLength * packWidth * packWeight) / 100;
+            decimal moneyValue = (decimal)total;
+            
+         
+           
+            
+            Console.WriteLine("your estimated total for shipping is " + string.Format("{0:C}", moneyValue));
             Convert.ToInt32(Console.ReadLine());
             Console.ReadLine();
 
@@ -57,3 +55,5 @@ namespace branching_assignment
     }
 }
 
+//decimal decimalMoneyValue = 1921.39m;
+//string formattedMoneyValue = String.Format("{0:C}", decimalMoneyValue);
