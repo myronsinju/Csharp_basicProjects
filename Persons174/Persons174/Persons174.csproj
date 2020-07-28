@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2F06A01-9833-4E0C-8E21-13509599C368}</ProjectGuid>
+    <ProjectGuid>{0C36C1AE-A4FC-4723-87F7-5F5F5353BF13}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>blackJack</RootNamespace>
-    <AssemblyName>blackJack</AssemblyName>
+    <RootNamespace>Persons174</RootNamespace>
+    <AssemblyName>Persons174</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="blackJackGame.cs" />
-    <Compile Include="Card.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="game.cs" />
-    <Compile Include="IWalkaway.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
