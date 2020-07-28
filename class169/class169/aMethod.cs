@@ -8,17 +8,15 @@ namespace class169
 {
     class aMethod
     {
-        public static class theMethod
+       public void div2(int myNum, out int result)
         {
-            public static int div2(int myNum)
-            {
-                return myNum / 2;
-            }
+            result = myNum / 2;
+        }
+        public void div2(double myNum, out double result)
+        {
+            result = myNum / 2;
         }
 
-        internal static string div2(int input)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

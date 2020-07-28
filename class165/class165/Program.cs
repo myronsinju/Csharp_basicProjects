@@ -10,17 +10,21 @@ namespace class165
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Take a number and have 2 added to it");
+            newMethod instance = new newMethod();
+            Console.WriteLine("input two numbers, but second number is not required");
+
             int answer = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("your number chosen + 2 is.. " + newMethod.addMethod(answer));
-            Console.ReadLine();
-
-            Console.WriteLine("input two numbers, one at a time no need to enter anything for the second number");
-            int input = Convert.ToInt32(Console.ReadLine());
-            int input2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("you've chosen.. " + newMethod.someNum(input));
+            try
+            {
+                int answer2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("your two numbers added together equals.." + instance.addMethod(answer, answer2));
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("your number plus 2 equals.." + instance.addMethod(answer));
+            }
+            
             Console.ReadLine();
         }
     }

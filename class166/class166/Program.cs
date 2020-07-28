@@ -10,10 +10,12 @@ namespace class166
     {
         static void Main(string[] args)
         {
+            voidClass instance = new voidClass();
             Console.WriteLine("lets play with two numbers add one and display the other.");
             int response = Convert.ToInt32(Console.ReadLine());
+            int response2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("the math operation combined with.." + voidMethod.twoMethod(response));
+            instance.twoMethod(a:response, b:response2);
             Console.ReadLine();
         }
     }

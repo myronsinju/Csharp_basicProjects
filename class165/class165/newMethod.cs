@@ -6,20 +6,11 @@ using System.Threading.Tasks;
 
 namespace class165
 {
-    public static class newMethod
+    public class newMethod
     {
-        public static int addMethod(int a, int b = 2)
+        public int addMethod(int a, int b = 2)
         {
-            return 10 + b;
+            return a + b;
         }
-        public static int someNum(int minusNum)
-        {
-            return minusNum - 5;
-        }
-         
     }
 }
-//public void SomeMethod(int a, int b = 0)
-//{
-//    //some code
-//}

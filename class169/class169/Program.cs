@@ -10,22 +10,20 @@ namespace class169
     {
         static void Main(string[] args)
         {
+            aMethod aMethod = new aMethod();
             Console.WriteLine("lets divide a number by two");
             int input = Convert.ToInt32(Console.ReadLine());
+            aMethod.div2(input, out int result);
+
+            Console.WriteLine("your number divided by two is... " + result);
+
+            Console.WriteLine("lets divide a number by two");
+            double input2 = Convert.ToDouble(Console.ReadLine());
+            aMethod.div2(input2, out double answer);
+
+            Console.WriteLine("your number divided by two is... " + answer);
+            Console.WriteLine(staticClass.example());
             Console.ReadLine();
-
-            Console.WriteLine("enter the number that was divided by two " + aMethod.div2(input));
-            {
-                //int input = div2(8, 5);
-            }
-
-            //static void Main(string[] args)
-            //{
-            //    int myNum1 = PlusMethodInt(8, 5);
-            //    double myNum2 = PlusMethodDouble(4.3, 6.26);
-            //    Console.WriteLine("Int: " + myNum1);
-            //    Console.WriteLine("Double: " + myNum2);
-            //}
         }
     }
 }

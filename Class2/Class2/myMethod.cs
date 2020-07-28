@@ -8,23 +8,25 @@ namespace Class2
 {
     public class myMethod
     {
-        public static int add20(int addNum)
+        public int mathM(int addNum)
         {
             return addNum + 20;
         }
-        public static double div25(int divNum)
+        public int mathM(decimal divNum)
         {
-            return divNum / 2.5;
+            return Convert.ToInt32(divNum / 2.5m);
         }
-        public static string name = String.Empty;// not sure the syntax for string to an int
-        
-
-        
-    //        string input = String.Empty;
-    //        try
-    //        {
-    //            int result = Int32.Parse(input);
-    //            Console.WriteLine(result);
-    //        }
-    //} 
+        public int mathM(string nameValue)
+        {
+            try
+            {
+                int myNum = Int32.Parse(nameValue);
+                return myNum * 45;
+            }
+            catch(Exception)
+            {
+                return 0;
+            }
+        }
+    } 
 }

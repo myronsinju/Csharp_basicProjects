@@ -12,9 +12,11 @@ namespace Class2
         {
             Console.WriteLine("type up a number for a math operation of addition");
             int adding = Convert.ToInt32(Console.ReadLine());
+            myMethod myClass = new myMethod();
 
-            Console.WriteLine("your number plus 20 equals passing it on as an integer " + myMethod.add20(adding));
+            Console.WriteLine("your number plus 20 equals passing it on as an integer " + myClass.mathM(adding));
             Console.ReadLine();
+
             //1. Create a class. In that class, create a method that will take in an integer, create a math
             //    operation for this integer (addition, subtraction, etc.), then return the answer as an integer.
 
@@ -22,9 +24,9 @@ namespace Class2
             //    passing in an integer.Display the result to the screen.
 
             Console.WriteLine("your number divided by 2.5 equals");
-            int divDec = Convert.ToInt32(Console.ReadLine());
+            decimal divDec = Convert.ToDecimal(Console.ReadLine());
 
-            Console.WriteLine("your number is being passed on & being divided by 2.5 which equals.. " + myMethod.div25(divDec));
+            Console.WriteLine("your number is being passed on & being divided by 2.5 which equals.. " + myClass.mathM(divDec));
             Console.ReadLine();
 
             //3. Add a second method to the class with the same name that will take in a decimal, 
@@ -33,8 +35,10 @@ namespace Class2
             //4. In the Main() method of the console app, instantiate the class and call the second method, 
             //    passing in a decimal. Display the result to the screen.
 
-            Console.WriteLine("your word value passed on in string form is...");
-            string Name = int.Parse(); //not sure the syntax for a string to a int
+            Console.WriteLine("input a number ");
+            string Name = Console.ReadLine();
+            
+            Console.WriteLine("your number times 45 is equal to.." + myClass.mathM(Name));
             Console.ReadLine();
 
             //5. Add a third method to the class, with the same name, that will take in a string, convert it to an integer if possible, 

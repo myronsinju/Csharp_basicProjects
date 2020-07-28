@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Persons174
 {
-    class employee : Person
+    class Employee : Person
     {
-        void class int ID = 
+        public int Id { get; set; }
     }
 }

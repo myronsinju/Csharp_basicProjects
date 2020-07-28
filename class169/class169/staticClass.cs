@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace class166
+namespace class169
 {
-    class voidMethod
+    public static class staticClass
     {
-        public static int twoMethod(int a = 5, int b = 0)
+        public static string example()
         {
-            return a + b;
+            return "hello!";
         }
     }
 }

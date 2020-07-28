@@ -10,7 +10,14 @@ namespace Persons174
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();//mind is becoming fried have to get some sleep .
+            Employee sample = new Employee()
+            {
+                FirstName = "sample",
+                LastName = "student",
+                Id = 01
+            };
+            sample.SayName();
+            Console.ReadLine();
         }
     }
 }

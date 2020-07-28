@@ -8,9 +8,14 @@ namespace blackJack
 {
     public class blackJackGame : game
     {
-        public void Play()
+        public override void Play()
         {
             throw new NotImplementedException();
+        }
+        public override void ListPlayers()
+        {
+            Console.WriteLine("Welcome to blackJack:");
+            base.ListPlayers();
         }
     }
 }

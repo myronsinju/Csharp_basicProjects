@@ -8,22 +8,15 @@ using System.Threading.Tasks;
 
 namespace Persons174
 {
-    class Person
+    public class Person
     {
-        public string fname = "My";
-        public string lname = "Sauce";
-        
-        public string Name
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public void SayName()
         {
-            get
-            {
-                return fname;
-            }
-            set
-            {
-                lname = value;
-            }
+            Console.WriteLine("Name: "+ FirstName + " " + LastName);
         }
+       
     }
 }
 //class Person
