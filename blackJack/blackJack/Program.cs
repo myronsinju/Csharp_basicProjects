@@ -10,28 +10,27 @@ namespace blackJack
     {
         static void Main(string[] args)
         {
-            blackJackGame game = new blackJackGame();
-            game.Players = new List<string>() { "my", "Bobby", "Sammy" };
-            Deck deck = new Deck();
-            deck.Shuffle(3);
-
-            foreach (Card card in deck.Cards)
+            Console.WriteLine("Welcome to the GRand Hotel and Casino. Start by telling me your name.");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Whats up, {0}. would you like to join a game of blackjack?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes") //|| answer == "yeah" || answer == "y" || answer == "ya" || answer = "ok") this code is not working the OR operator
             {
-                Console.WriteLine(card.Face + " of " + card.Suit);
+                Player player = new Player(playerName, bank);
+                Game game = new blackJackGame();
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
             }
-            Console.WriteLine(deck.Cards.Count);
+            Console.WriteLine("Feel free to look around the Casino. bye bye now!");
             Console.ReadLine();
         }
-        
-
-
-        //public static Deck Shuffle(Deck deck, int times)
-        //{
-        //    for (int i = 0; i < times; i++)
-        //    {
-        //        deck = Shuffle(deck);
-        //    }
-        //    return deck;
-        //}
     }
 }

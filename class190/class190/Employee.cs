@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace blackJack
+namespace class190
 {
-    interface IWalkAway
+    public class Employee < myGeneric >
     {
-        void WalkAway(Player player);
+        public List<myGeneric> things { get; set; }
     }
 }

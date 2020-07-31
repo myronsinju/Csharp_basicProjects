@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C16DEEE-0991-407D-A2CE-4F601369E154}</ProjectGuid>
+    <ProjectGuid>{54C372EF-26B3-46EA-92A3-D130D34B96B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>class179</RootNamespace>
-    <AssemblyName>class179</AssemblyName>
+    <RootNamespace>class203</RootNamespace>
+    <AssemblyName>class203</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

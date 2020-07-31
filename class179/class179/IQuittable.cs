@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace blackJack
+namespace class179
 {
-    interface IWalkAway
+    interface IQuittable
     {
-        void WalkAway(Player player);
+        void Quit();
     }
 }
