@@ -13,6 +13,14 @@ namespace class203
         {
             Employee max = new Employee() { FirstName = "Max", LastName = "Weiss", Id = 1 };
             Employee joe = new Employee() { FirstName = "Joe", LastName = "Bob", Id = 2 };
+            Employee feliz = new Employee() { FirstName = "Feliz", LastName = "Navida", Id = 3 };
+            Employee swimming = new Employee() { FirstName = "Swimming", LastName = "Jankins", Id = 4 };
+            Employee thorn = new Employee() { FirstName = "Thorn", LastName = "Butt", Id = 5 };
+            Employee biggie = new Employee() { FirstName = "Biggie", LastName = "Smallzie", Id = 6 };
+            Employee ajax = new Employee() { FirstName = "Ajax", LastName = "CrackSnap", Id = 7 };
+            Employee milky = new Employee() { FirstName = "Milky", LastName = "Way", Id = 8 };
+            Employee joe2 = new Employee() { FirstName = "Joe", LastName = "Big-Daddy", Id = 9 };
+            Employee sharell = new Employee() { FirstName = "Sharell", LastName = "crept", Id = 10 };
             List<Employee> nameList = new List<Employee>()
             {
                 max , joe, 
@@ -27,7 +35,9 @@ namespace class203
                 }
             }
 
-            int count = nameList.Count(int => 5);
+            int count = nameList.Count(Employee => 5);//not sure how to do the lambda expression the video isn't making sense to me.
+            
+
             Console.ReadLine();
         }
     }

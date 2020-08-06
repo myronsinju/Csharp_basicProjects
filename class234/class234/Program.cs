@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace class234
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello user what is your age?");
+            int userAge = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("type age.");
+                int age = Convert.ToInt32(Console.ReadLine());
+            }
+            catch(FormatException)  
+            {
+                Console.WriteLine("Please type a whole number with no words");
+            }
+            
+        }
+    }
+}
+//1. Ask the user for their age.
+//2. Display the year the user was born.
+//3. Exceptions must be handled using "try .. catch".
+//4. Display appropriate error messages if the user enters zero or negative numbers.
+//5. Display a general message if an exception was caused by anything else.
