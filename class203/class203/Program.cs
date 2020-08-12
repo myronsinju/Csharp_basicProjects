@@ -11,32 +11,42 @@ namespace class203
     {
         static void Main(string[] args)
         {
-            Employee max = new Employee() { FirstName = "Max", LastName = "Weiss", Id = 1 };
-            Employee joe = new Employee() { FirstName = "Joe", LastName = "Bob", Id = 2 };
-            Employee feliz = new Employee() { FirstName = "Feliz", LastName = "Navida", Id = 3 };
-            Employee swimming = new Employee() { FirstName = "Swimming", LastName = "Jankins", Id = 4 };
-            Employee thorn = new Employee() { FirstName = "Thorn", LastName = "Butt", Id = 5 };
-            Employee biggie = new Employee() { FirstName = "Biggie", LastName = "Smallzie", Id = 6 };
-            Employee ajax = new Employee() { FirstName = "Ajax", LastName = "CrackSnap", Id = 7 };
-            Employee milky = new Employee() { FirstName = "Milky", LastName = "Way", Id = 8 };
-            Employee joe2 = new Employee() { FirstName = "Joe", LastName = "Big-Daddy", Id = 9 };
-            Employee sharell = new Employee() { FirstName = "Sharell", LastName = "crept", Id = 10 };
-            List<Employee> nameList = new List<Employee>()
+            List<Employee> Employees = new List<Employee>
             {
-                max , joe, 
+                new Employee {FirstName = "Max", LastName = "Weiss", Id = 1 } ,
+                new Employee { FirstName = "Joe", LastName = "Bob", Id = 2 },
+                new Employee { FirstName = "Feliz", LastName = "Navida", Id = 3 },
+                new Employee { FirstName = "Swimming", LastName = "Jankins", Id = 4 },
+                new Employee { FirstName = "Thorn", LastName = "Butt", Id = 5 },
+                new Employee { FirstName = "Biggie", LastName = "Smallzie", Id = 6 },
+                new Employee { FirstName = "Ajax", LastName = "CrackSnap", Id = 7 },
+                new Employee { FirstName = "Milky", LastName = "Way", Id = 8 },
+                new Employee { FirstName = "Joe", LastName = "Big-Daddy", Id = 9 },
+                new Employee { FirstName = "Sharell", LastName = "crept", Id = 10 },
             };
-
+           
             List<Employee> joeList1 = new List<Employee>();
-            foreach (Employee employee in nameList)
+
+            foreach (Employee X in Employees)
             {
-                if (employee.FirstName == "Joe")
+                if (X.FirstName == "Joe")
                 {
-                    joeList1.Add(employee);
+                    joeList1.Add(X);
                 }
             }
+            foreach(Employee Y in joeList1)
+            {
+                Console.WriteLine(Y.FirstName);
+            }
+            List<Employee> JoeName = Employees.Where(A => A.FirstName == "Joe").ToList();
+            List<Employee> IdList2 = Employees.Where(X => X.Id > 5).ToList();
+            foreach(Employee K in JoeName)
+            {
+                Console.WriteLine(K.LastName);
+            }
 
-            int count = nameList.Count(Employee => 5);//not sure how to do the lambda expression the video isn't making sense to me.
-            
+
+
 
             Console.ReadLine();
         }

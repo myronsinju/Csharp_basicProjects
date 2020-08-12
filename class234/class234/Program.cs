@@ -11,16 +11,15 @@ namespace class234
         static void Main(string[] args)
         {
             Console.WriteLine("Hello user what is your age?");
-            int userAge = Convert.ToInt32(Console.ReadLine());
             try
             {
-                Console.WriteLine("type age.");
                 int age = Convert.ToInt32(Console.ReadLine());
             }
             catch(FormatException)  
             {
                 Console.WriteLine("Please type a whole number with no words");
             }
+            if { }
             
         }
     }

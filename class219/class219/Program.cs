@@ -11,11 +11,11 @@ namespace class219
     {
         static void Main(string[] args)
         {
-            string assignment = "Yo GABBA GABBA WHATS UP";
-            File.WriteAllText(@"C:\Users\18015\Documents\assignment.txt\", assignment);
-
             Console.WriteLine("Hello User can we get a number?");
-            int askNumber = Convert.ToInt32(Console.ReadLine());//having a issue implementing the streamwriter command 
+            string askNumber = Console.ReadLine();
+            File.WriteAllText();
+            string variableName = C# Read File Method
+            Console.WriteLine("This file says: " + askNumber);
             //string askNumber2 = string.Format();
             //using (StreamWriter file = new StreamWriter)
         }
