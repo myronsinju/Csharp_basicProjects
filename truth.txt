@@ -1,0 +1,50 @@
+when I was a young teenager I worked on my families farm and my uncle had told me to piece together a fertilizer machine on my own
+it took me about 4 hours but I enjoyed it. not cause it was easy but the reward for getting it done felt well deserved.
+reminded me of the time I built legos as an even younger child with a friend and had to follow instructons
+the "INSTRUCTIONS" we're actually clear but 
+I still needed to process to understand
+ even tho i got stuck sometimes I went back and looked at it a different way and got it done.with 
+C# the courses instructons were great for blackJack and some MVC projects and some videos you watched 
+but when tossed to the console projects and the assignments you had to submit to the instructor, the instructons vaguley refferenced 
+the videos. about half maybe seemed to relate to the current topic I remember the last assignment I wanted to do the JS knockout 
+one and I could not find a single thing on how to use an MVC or what not to start the project the instructor instructed me a template for 
+antoher one of the four assignments. that was highly frustrating and you just
+have a limited time so you take what you can get the assignments assigned by the school doesn't even have links
+to the assignments in C# they're giving out the INSTRUCTIONS in my opinion that are not that good  
+erik gross I still remember in the first "overview of definitions" course said don't spend more than an hour trying to piece something
+togheter but in C# every few pages was over an hour especially the first couple hundred pages.
+ and it was way too much info at once. sink or swim is what it felt like. but perhaps I'm lazy, uninterested, 
+not smart enough, or just don't have a huge passion for this which are all somewhat true. but I wanted this 
+course to land a job as a junior developer
+I have a career I work at in film and athletics but I dont always get work and wanted to upgrade my day job. so this sort of stuff does 
+not come as easy to me, it's not really my "calling"
+ I'm sure maybe people with a strong passion who are smart in this way do great! but for some of us who are just no gifted in it
+trying to get a better job I dont feel this accomdates to them as well but the tech academy really called me 
+always wanting to sell me on the course. 
+ well I spent money on this course to be taught lessons not google it on my own. I should have just googled my way to the job with 
+the teaching style from the last course. 
+
+and that is what really piss me off. if you want us to learn on our own cause were paid to google. at least give 
+a few links that will have all the answers so we dont end up down rabbit holes
+because I honestly think I did not know what to google sometimes. I'm new to this sort of work and vocabulary so I was lost a lot in this
+course. it shouldnt take a whole damn week
+
+for one assignment especially when we have jobs and family to tend to i paid for lessons like solid instructions. not go off on your
+own for the assignment and get lost for a a day or two and see what happens. 
+I Really hated this course I'm not going to lie the words used to are so foreign I did not have a professional understanding of
+words like "instansiate", or "Object-orient progamming", or LINQ and this and that or "CONST" "VAR" or UTF-32 or Convert.ToinT32 etc.. 
+like I know what those words mean
+
+but its like learning a foreign language I can't speak it too well so I have to think in my head what im translating too.
+but the videos just go and go and go and go. and speak like you know the foreign language fluently.
+you can't ask questions to it. so if you get lost you end up screensharing and 
+
+the instructors probably are getting annoyed as you are by how much you call
+ and you feel bad cause you dont understand and then they have other
+students to tend to and you just are done with it sometimes and don't want to google no more "JS knockout" 
+
+couldn't find a single thing for that assignment I watched youtube videos I looked through stackoverflow microsoft docs
+and others and I couldn't find any beginner thing on how to use it in an MVC way.
+ I found stuff on it that I could not undestand. and I didn't want to have
+to screenshare a freaking again to get it done. and you have no links on how to do it the course is "ike
+hey fly or die" is what it seems like SO i was like ya fuck this I'm sorry but I really hated this course with a passion 

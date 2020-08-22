@@ -18,7 +18,9 @@ namespace class222_230
 
             Console.WriteLine("please enter a number.");
             int answer = Convert.ToInt32(Console.ReadLine());
-
+            DateTime addHours = now.AddHours(answer);
+            Console.WriteLine("the time in " + answer + " hours will be " + addHours);
+                //dt2 = dt1.AddHours(48);
 
             double radius = 5.3;
             double area = 3 / 2 * (radius * radius);

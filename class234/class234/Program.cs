@@ -14,12 +14,26 @@ namespace class234
             try
             {
                 int age = Convert.ToInt32(Console.ReadLine());
+                if (age == 0)
+                {
+                    Console.WriteLine("you cannot be 0 years old");
+                }
+                if (age < 0)
+                {
+                    Console.WriteLine("You cannot be a negative age ");
+                }
+                else
+                {
+                    DateTime birthdayYear = DateTime.Now.AddYears(-age);
+                    Console.WriteLine("you were born in the year " + birthdayYear.Year);
+                         //DateTime d2 = d1.AddYears(-2);
+                }
             }
             catch(FormatException)  
             {
                 Console.WriteLine("Please type a whole number with no words");
             }
-            if { }
+            Console.ReadLine();
             
         }
     }

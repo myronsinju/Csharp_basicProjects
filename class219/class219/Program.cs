@@ -13,9 +13,10 @@ namespace class219
         {
             Console.WriteLine("Hello User can we get a number?");
             string askNumber = Console.ReadLine();
-            File.WriteAllText();
-            string variableName = C# Read File Method
-            Console.WriteLine("This file says: " + askNumber);
+            File.WriteAllText(@"C:\Users\18015\myProjects\Csharp_basicProjects\class219\number.txt", askNumber);
+            string readFile = File.ReadAllText(@"C:\Users\18015\myProjects\Csharp_basicProjects\class219\number.txt");
+            Console.WriteLine("This file says: " + readFile);
+            Console.ReadLine();
             //string askNumber2 = string.Format();
             //using (StreamWriter file = new StreamWriter)
         }
