@@ -8,31 +8,51 @@ using System.Collections.Generic;
     {
         static void Main()
         {
-        List<string> intList = new List<string>();
-        intList.Add("Hiya");
-        intList.Add("Dmy");
-        intList.Remove("Dmy");
+        try
+        {
+            Console.WriteLine("hello user please input a value between 0-4");
 
-        Console.WriteLine(intList[0]);
+
+
+            string[] arrayString = new string[5];
+            arrayString[0] = "HIYA";
+            arrayString[1] = "Dmy";
+            arrayString[2] = "ok";
+            arrayString[3] = "howdy!";
+            arrayString[4] = "silverman!";
+
+
+            int userInput = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(arrayString[userInput]);
+
+
+
+            Console.WriteLine("hello user please insert another value between 0-4");
+            int[] numArray = new int[5];
+            numArray[0] = 5;
+            numArray[1] = 10;
+            numArray[2] = 546;
+            numArray[3] = 1525;
+            numArray[4] = 2368;
+
+            int userSelected = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(numArray[userSelected]);
+        }
+        catch
+        {
+            Console.WriteLine("Please insert a value between 0-4 only");
+        }
+        List<string> stringList = new List<string>();
+        stringList.Add("whatsup!");
+        stringList.Add("buttercup!");
+        stringList.Add("what's");
+        stringList.Add("cooking");
+        stringList.Add("good lookin");
+
+        Console.WriteLine("Hello user pick another number yet again between 0-4");
+        int userEntered = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine(stringList[userEntered]);
         Console.ReadLine();
-
-
-
-
-        //int[] numArray = new int[5];
-        //numArray[0] = 5;
-        //numArray[1] = 10;
-        //numArray[2] = 546;
-        //numArray[3] = 1525;
-        //numArray[4] = 2368;
-
-        //int[] numArray1 = new int[] { 5, 10, 546, 1525, 2368 };
-
-        //int[] numArray2 = { 2, 6, 1, 105, 4000, 400, 5600 };
-
-        //numArray2[6] = 1400;
-        //Console.WriteLine(numArray2[6]);
-        //Console.ReadLine();
         }
     }
 
